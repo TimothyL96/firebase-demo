@@ -6,12 +6,12 @@
     "public": "public",
     "rewrites": [
       {
-        "source": "public/widget",
-        "destination": "public/widget.html"
+        "source": "/demo/public/widget",
+        "destination": "/demo/public/widget.html"
       },
       {
         "source": "**",
-        "destination": "public/index.html"
+        "destination": "/demo/public/index.html"
       }
     ]
   }
